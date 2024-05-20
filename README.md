@@ -14,6 +14,6 @@ _________________________________________________________
 😎Enjoy
 _________________________________________________________
 
-❗❗Don't forget to put your discord webhook url
+❗❗Don't forget to put your telegram bot api token
 
 ❗❗Don't forget to put telegram directory
